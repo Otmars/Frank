@@ -8,5 +8,9 @@ jobs:
     hello_world:
         runs-on: ubuntu-latest
         steps:
-          - name: Hola
-            run: echo "Hola mundo"
+          - name: 📂 Sync files
+            uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+            with:
+              server: 92.112.176.8
+              username: otmars
+              password: wksgdwh72iDPcwQ0eLuV
